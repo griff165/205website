@@ -1,0 +1,49 @@
+
+
+body{
+    background-color:white;
+    font-family:sans-serif;
+    
+}
+
+.one{
+    background-color: #ffd8cc;
+    text-align:center;
+    padding-bottom:40px;
+    padding-top: 30px;
+    margin:0px;
+}
+
+
+#nav{
+    text-align: center;
+    background-color:#ffd8cc;
+    padding-top:6px;
+    padding-bottom: 12px;
+    margin: 0px;
+    
+}
+
+#intro{
+    text-align: center;
+    font-family:Arial;
+
+}
+
+.btn-default{
+    background-color:#ffd8cc;
+    border-color:#ffd8cc;
+    font-size: 13;
+    text-transform: uppercase;
+    font-family: helvetica;
+    
+}
+
+.btn-default:hover{
+    background-color: #ffd8cc;
+    
+}
+
+.hideable {
+    display: none;
+}
