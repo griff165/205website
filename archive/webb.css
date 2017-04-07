@@ -1,0 +1,209 @@
+  body {
+      position: relative;
+      background-color: #eddee9;
+}
+
+  img {
+    width: 100%;
+    height: auto;
+}
+  
+  #logo{
+      position: fixed;
+      top: 4%;
+      left:3.7%;
+    width: 12%;
+    height: auto;
+}
+  
+  #bar{
+      position: fixed;
+      margin-left: 2%;
+      background-color: #a0578c;
+      z-index: -3;
+      }
+
+#img1{
+    width:22%;
+    margin-right:20px;
+}
+
+#myModal{
+  width:50%;
+  height: 300px;
+}
+
+#modal-content{
+  height:300px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+  ul.nav-pills {
+      top: 220px;
+      position: fixed;
+      left:0px;
+      margin-left: 6%;
+      font-size: 12pt;
+      color: #734005;
+  }
+.nav-pills{
+  color: #2B9E32;
+}
+
+a{
+  color:#5a2805;
+  margin-left: -10%;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  }  
+  
+
+  
+.col-sm-9 {
+  z-index: 1;
+  }
+
+.col-sm-8 div {
+      width:145%;height:690px;
+      font-size: 22px;
+      
+      margin-right: 4%;
+      padding-top: 3%;
+      padding-left: 4%;
+}
+
+
+#section1 {color: #fff; 
+             background-color: #ae578c;
+             background-image: url(image1/finerbakes_hme.jpg)
+  }
+  
+  
+h2{
+  font-size: 16pt;
+  text-align: left;
+  color: #fff;
+}
+  
+p1{
+    position: relative;
+    width:40%;
+    font-size:12pt;
+    color: #fff;
+}
+
+  
+#section2 {color: #fff; 
+           background-color:#673ab7;
+           max-height: 800px;
+}
+           
+
+#first_layer{
+  max-width: 100%;
+  max-height: 60%;
+  overflow: hidden;
+  margin-left:-2%;
+  margin-top: -4%;
+}
+
+  
+#img1{
+  max-width: 20%;
+}
+  
+  
+#myModal
+{
+  max-width: 100%;
+  margin-left: 16%;
+  max-height: 900px;
+  margin-bottom: 10px;
+  
+}
+.model-dialog{
+  max-width: 100px;
+  max-height: 20px;
+  height: 130px;
+}  
+
+.modal-content{
+  position: relative;
+  max-width: 125%;
+  max-height: 130px;
+  
+}
+.modal-header{
+  max-width: 20px;
+  max-height: 50px;
+}
+.modal-body {
+    position: relative;
+    max-height: 50px;
+    padding: 15px;
+    max-width: 20px;
+}
+
+
+.modal-footer{
+  max-height: 50px
+}
+  #section3 {color: #fff; background-color: #ff9800;}
+  #section4 {color: #fff; background-color: #00bcd4;}
+  #section5 {color: #fff; background-color: #59495b;}
+  
+#foot{
+  background-color: #3b303d;
+  padding-top:0%;
+  bottom:0;
+  text-align: center;
+  font-size:8pt;
+  color: #b7b5b7;
+  margin-left: 18.9%;
+ 
+}
+    
+  @media screen and (max-width: 1810px) {
+    #section1, #section2, #section3, #section4, #section5, .container1  {
+        margin-left:20%;
+        
+    }
+  }  
+  

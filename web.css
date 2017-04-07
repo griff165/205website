@@ -1,26 +1,71 @@
 
 
 body{
-    background-color:white;
     font-family:sans-serif;
+    position: relative;
+    background-color: #eddee9;
+    height: 1400px;
     
 }
 
-.one{
-    background-color: #ffd8cc;
-    text-align:center;
-    padding-bottom:40px;
-    padding-top: 30px;
-    margin:0px;
+  img {
+    width: 100%;
+    height: auto;
+}
+  
+  #logo{
+    position: absolute;
+    text-align: center;
+    top: 2%;
+    left:6em;
+    width: 7em;
+    margin-top: 2%;
+    height: 7em;
+
+}
+p1{
+    margin-right: 4%;
+}
+
+h2{
+    text-align: left;
+    margin-right: auto;
+    margin-bottom: 1em;
+    margin-left: 10.5%;
+} 
+
+.text1{
+    
+    position: left;
+    text-align: right;
+    padding-top: 4px;
+    padding-left: 520;
+    padding-bottom:1.6px;
+    background-color:#734005;
+    color: #E6E6E6;
+    max-height:25px;
 }
 
 
+
+
 #nav{
-    text-align: center;
-    background-color:#ffd8cc;
-    padding-top:6px;
-    padding-bottom: 12px;
+    text-align: right;
+    background-color:D995DB;
+    padding-top:100px;
+    padding-bottom: 10px;
+    padding-right: 190px;
     margin: 0px;
+}
+
+
+
+
+#scroller{
+    margin: 2px;
+    color:#e6e6e6;
+    background-color:#D995DB;
+    padding:4px;
     
 }
 
@@ -31,19 +76,238 @@ body{
 }
 
 .btn-default{
-    background-color:#ffd8cc;
-    border-color:#ffd8cc;
+    background-color:#D995DB;
+    border-color:#D995DB;;
     font-size: 13;
     text-transform: uppercase;
     font-family: helvetica;
-    
+    color: #fff;
 }
 
 .btn-default:hover{
-    background-color: #ffd8cc;
+    background-color: #ae578c ;
     
 }
 
 .hideable {
     display: none;
+}
+
+#pin{
+    background-color:#ae578c;
+    margin-top: 13px;
+    padding-top: 1.01px;
+}
+
+
+.jumbotron{
+	text-align: center;
+	background-color:#8A2BE2;
+	background-image: url(image1/finerbakes_hme.jpg);
+	color: #fff;
+	padding:12em;
+	
+	
+}
+.the_what{
+	max-width: 180%;
+	max-height: 800px;
+	margin-left: 5%;
+	margin-right:5%;
+	text-align: center;
+	overflow: hidden;
+	margin-top: -60px;
+}
+
+#twi{
+	max-height:40em;
+	max-width:40em;
+	text-align: center;
+}
+
+
+.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 240px;
+    padding-left: 40px;
+    margin: 6%;
+
+}
+
+.caption {
+    display: block;
+    text-align: left;
+    font-size: 14pt;
+    
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 800px) {
+    
+    .jumbotron{
+	text-align: center;
+	background-color:#8A2BE2;
+	background-image: url(image1/finerbakes_hme.jpg);
+	color: #fff;
+	padding:23em;
+	max-height:300px;
+	margin-top: 0px;
+	font-size: 2pt;
+    }
+    
+    #twi{
+	max-height:8em;
+	max-width:8em;
+	text-align: center;
+}
+
+.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 220px;
+    padding-left:10px;
+    margin: 1%;
+}
+.the_what{
+	max-width: 100%;
+	max-height: 490px;
+	margin-left: 0%;
+	margin-right:0%;
+	text-align: center;
+	overflow: hidden;
+	margin-top: -20px;
+}
+
+.caption {
+    display: block;
+    text-align: left;
+    font-size: 11pt;
+    
+}
+
+
+}
+
+.first_layer{
+    text-align: center;
+}
+
+.img-thumbnail{
+    width:17em;
+    margin-right:20px;
+}
+
+.img-thumbnail:hover { background:#CCC;}
+.img-thumbnail:hover img{ visibility:hidden;}
+
+/* Modal Header */
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Footer */
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+#mycarousel{
+    max-height: 200px;
+}
+#car2{
+    max-height: 20px;
+}
+
+/* Style the container with a rounded border, grey background and some padding and margin */
+.container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    max-width: 80%;
+    margin-top: 0.5em;
+   margin-right: auto;
+   margin-bottom: 0em;
+   margin-left: auto;
+
+}
+
+/* Clear floats after containers */
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.container span {
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .container {
+    text-align: center;
+  }
+
+  .container img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+
+
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 40px;
+  background-color :#d6a9c4;
+  text-align: center;
 }

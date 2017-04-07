@@ -1,30 +1,26 @@
-// direction = boolean value: true or false. If true, go to NEXT slide; otherwise go to PREV slide
-function toggleSlide(direction) {
-    var elements = document.getElementsByClassName("hideable"); // gets all the "slides" in our slideshow
-    // Find the LI that's currently displayed
-    var visibleID = getVisible(elements);
-    elements[visibleID].style.display = "none"; // hide the currently visible LI
-    if(!direction) {
-        var makeVisible = prev(visibleID, elements.length); // get the previous slide
-    } else {
-        var makeVisible = next(visibleID, elements.length); // get the next slide
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+var btn = document.getElementById("img1");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal 
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
     }
-    elements[makeVisible].style.display = "block"; // show the previous or next slide
 }
-function getVisible(elements) {
-    var visibleID = -1;
-    for(var i = 0; i < elements.length; i++) {
-        if(elements[i].style.display == "block") {
-            visibleID = i;
-        }
-    }
-    return visibleID;
-}
-function prev(num, arrayLength) {
-    if(num == 0) return arrayLength-1;
-    else return num-1;
-}
-function next(num, arrayLength) {
-    if(num == arrayLength-1) return 0;
-    else return num+1;
-}
+
