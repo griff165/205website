@@ -24,3 +24,10 @@ window.onclick = function(event) {
     }
 }
 
+function validateForm() {
+    var x = document.forms["contact_us"]["fname"].value;
+    if (x == "") {
+        alert("Entry must be filled out");
+        return false;
+    }
+}

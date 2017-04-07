@@ -5,31 +5,57 @@
     <link rel="stylesheet" href="web.css" type="text/css"/>
 </head>
 <body>
-<div class="text1">
-<p1>Call us on 07901112233</p1>
-</div>
-     <img id=logo src=image1/logofin.png width="150" height="150" alt="">
+  <div class="text1">
+  <p1>Call us on 07901112233</p1>
+  </div>
+ <img id=logo src=image1/logofin.png width="150" height="150" alt="">
     
-
-<div id=nav>
+<!-- navigation bar -->
+  <div id=nav>
     <button id=b1 type="button" class="btn btn-default" onclick="location.href ='webo.html'">Home</button>
     <button id=b2 type="button" class="btn btn-default" onclick="location.href ='cakes.html'" >Cakes</button>
     <button id=b4 type="button" class="btn btn-default" onclick="location.href ='reviews.html'">Reviews</button>
     <button id=b7 type="button" class="btn btn-default" onclick="location.href ='contact.html'">Contact</button>
-</div>
-
+  </div>
+<!-- Marque -->
 <div id=scroller>
-<marquee behavior="scroll" direction="left">50% off if you order before 9PM</marquee>
+  <marquee behavior="scroll" direction="left">50% off if you order before 9PM</marquee>
 </div>
  
-    
-  <div id="map" style="width:100%;height:400px;background:#fff"></div>  
+ <!-- Map and sizing-->   
+<div id="map" style="width:100%;height:400px;background:#fff"></div>  
 
-<div id=Pin>
+  <!-- container displaying content -->
+  <div class="container">
+  Based in south East London Finer Bakes operates from Monday-Friday 7:00am -9:00pm, our phone and order hours are from 5:00am-11:00pm 
+ Call on: 0790111222333
+ Email on: Finerbakes@hotmail.com
+</div>
+
+ <!-- Responsive form--> 
+  <div class="container">  
+    <div id="first"> For general enquiries, please fill below. If after a quote please use the quote form HERE</div>
+    <br>
+     <form name="contact_us" class="form-horizontal" action=”contactinfo.php method="post">
+      Name:<br>
+      <input type="text" name="name" class="form-control"><br>
+      Telephone:<br>
+      <input type="tel" name="number" class="form-control"><br>
+      Email:<br>
+     <input type="email" name="email" class="form-control"><br>
+      Enquiry<br>
+      <textarea name="enquiry" rows="10" cols="30" class="form-control" placeholder="Your enquiry..."/> 
+      </textarea><br><br>
+       <input type="submit" onclick="alert('ThankYou, We aim to get back to you within 24hrs')" value="Submit" class="btn btn-default">
+       </form>
+     </div>
+  <!-- visable break for aestetics -->
+   <div id=Pin>
     </div>
-<div class="footer">This footer will always be positioned at the bottom of the page,</div>
-
-<script type="text/javascript" src="web.js"></script>
+    <!-- footer at bottom of screen -->
+  <div class="footer">This footer will always be positioned at the bottom of the page,</div>
+ <!-- scripts placed at bottom to speed up load time-->
+  <script type="text/javascript" src="web.js"></script>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
 </body>

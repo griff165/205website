@@ -106,9 +106,15 @@ h2{
 	background-image: url(image1/finerbakes_hme.jpg);
 	color: #fff;
 	padding:12em;
-	
-	
 }
+
+#word{
+    padding-left:4em;
+    font-size:14;
+}
+
+
+	
 .the_what{
 	max-width: 180%;
 	max-height: 800px;
@@ -206,17 +212,23 @@ h2{
 /* Modal Header */
 .modal-header {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: #734005;
     color: white;
 }
 
+#imgmodal{
+    max-height: 30%;
+    max-width:  30%;
+    display:inline-block
+    
+}
 /* Modal Body */
 .modal-body {padding: 2px 16px;}
 
 /* Modal Footer */
 .modal-footer {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color:#734005;
     color: white;
 }
 
@@ -235,7 +247,7 @@ h2{
     animation-duration: 0.4s
 }
 
-/* Add Animation */
+/*  Animation */
 @-webkit-keyframes animatetop {
     from {top: -300px; opacity: 0} 
     to {top: 0; opacity: 1}
@@ -298,16 +310,30 @@ h2{
     float: none;
     display: block;
   }
+  
+  .footer {
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 150px;
+  background-color :#d6a9c4;
+  margin-top: 20em;
+  
+  text-align: center;
+}
+
 }
 
 
 
-.footer {
+.footer:hidden {
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 40px;
+  padding: 90px;
   background-color :#d6a9c4;
+  
   text-align: center;
 }
